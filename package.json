@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node -r dotenv/config app.js",
-    "dev": "node -r dotenv/config  app.js"
+    "dev": "node -r dotenv/config  app.js",
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
